@@ -1,0 +1,113 @@
+body {
+    background-color: #000000;
+}
+
+.stars{
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+    animation: anim-stars 10s linear infinite;
+	box-shadow: 50px 30px #ffffff,
+    100px 80px #ffffff,
+    80px 120px #ffffff,
+    300px 20px #ffffff,
+    250px 130px #ffffff,
+    200px 50px #ffffff,
+    150px 100px #ffffff,
+    320px 100px #ffffff,
+    50px 210px #ffffff,
+    100px 270px #ffffff,
+    80px 360px #ffffff,
+    300px 250px #ffffff,
+    250px 390px #ffffff,
+    200px 250px #ffffff,
+    150px 400px #ffffff,
+    320px 400px #ffffff,
+    50px 420px #ffffff,
+    100px 640px #ffffff,
+    80px 700px #ffffff,
+    300px 700px #ffffff,
+    250px 690px #ffffff,
+    200px 750px #ffffff,
+    150px 1000px #ffffff,
+    320px 1000px #ffffff,
+    1000px 640px #ffffff,
+    1000px 750px #ffffff,
+    600px 600px #ffffff,
+    800px 800px #ffffff,
+    700px 700px #ffffff,
+    800px 600px #ffffff,
+    1400px 750px #ffffff,
+    1400px 600px #ffffff,
+    1070px 700px #ffffff,
+    1070px 600px #ffffff,
+    1070px 300px #ffffff,
+    1070px 100px #ffffff,
+    1070px 450px #ffffff,
+    800px 680px #ffffff,
+    700px 600px #ffffff,
+    750px 640px #ffffff,
+    400px 0px #ffffff;
+    
+}
+/* maximo 1400*/
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+.Tempo {
+    background: rgba(181, 4, 4, 0.181);
+    box-shadow: 0 1px 128px 0 rgba(255, 89, 0, 0.442);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10000px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    margin-top: 12.5%;
+    margin-bottom: 8.5%;
+    margin-left: 36%;
+    margin-right: 36%;
+    color: #ffffff;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(181, 4, 4, 0.181);
+    margin-left: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    width: 50px;
+    height: 20px;
+    padding: 0px;
+    border: none;
+    color: #726A68;
+    border-radius: 150px;
+    box-shadow: 0 1px 24px 0 rgba(255, 89, 0, 0.442);
+}
+
+input {
+    background-color: rgba(181, 4, 4, 0.181);
+    margin-left: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    width: 100px;
+    height: 20px;
+    padding: 0px;
+    border: none;
+    color: #726A68;
+    border-radius: 150px;
+    box-shadow: 0 1px 24px 0 rgba(255, 89, 0, 0.442);
+    margin-top: 10px;
+}
+
+h6 {
+    margin-top: 20px;
+}
+
